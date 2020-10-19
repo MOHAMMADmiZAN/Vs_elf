@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+ol, ul, li {
+    display: inline-block;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+}
+
+.title{
+    color: #2E3192;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+/*===============================================Nav-part-Start=======================================================*/
+nav{
+    position: absolute!important;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+nav .navbar-brand img{
+    width: 262px;
+    height: 66px;
+}
+nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.4s;
+    position: relative;
+    margin-right: 15px;
+}
+nav .nav-item .nav-link::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background: #F26527;
+    transition: 0.4s;
+
+
+    
+}
+nav .nav-item .nav-link:hover{
+    color: #F26527!important;
+}
+nav .nav-item .nav-link:hover::after{
+    height: 3px;
+}
+ .nav-item .active {
+    color: #F26527!important;
+}
+
+  .navbar-nav .nav-item .active::after {
+    height: 3px;
+
+
+}
+/*===============================================Nav-part-end=======================================================*/
+/*===============================================banner-part-start====================================================*/
+#banner{
+    background: url("../images/bgp.jpg") center no-repeat;
+    background-size: cover;
+}
+#banner .overlay{
+    background: rgba(0, 0, 0,0.8);
+    padding: 250px 0;
+}
+#banner .left-banner .text {
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#banner .left-banner .button{
+    text-align: center;
+    margin: -30px 0 0 110px;
+}
+#banner .left-banner .button a{
+    padding:10px;
+    background: #F26527;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+#banner .right-banner .image{
+    margin-top: -90px;
+}
+#banner .shape{
+    position: relative;
+}
+#banner .shape .item{
+    font-weight: 800;
+    font-size: 40px;
+    color: #F26527;
+    position: absolute;
+    top: -140px;
+    left: 579px;
+}
+/*===============================================banner-part-end=======================================================*/
+/*===============================================service-part-start====================================================*/
+#service .service-content{
+    box-shadow: inset 0 0 150px 0 rgba(26,26,25,1);
+    margin: -60px 0 50px 0;
+    border-radius: 10px;
+
+}
+#service .service-content .item{
+    padding:  50px 20px;
+    transition: 0.4s;
+}
+#service .service-content .image{
+    text-align: center;
+    padding: 10px;
+}
+#service .service-content .text{
+    text-align: center;
+}
+#service .service-content .text a{
+    color: #2E3192;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+#service .service-content .text p{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+#service .service-content .item:hover{
+    background: #F26527;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 120px;
+}
+ #service .bg-o{
+    background: #F26527;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 120px;
+}
+/*===============================================service-part-end=====================================================*/
+/*===============================================let-part-start=====================================================*/
+#let{
+    padding: 120px 0 0;
+}
+#let .left-side{
+    padding-top: 50px
+}
+#let .right-side{
+    padding-top: 50px;
+}
+#let .right-side p{
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+#let .shape {
+    position: relative;
+}
+#let .line{
+    position: absolute;
+    top: -440px;
+    left: 280px;
+}
+#let .shape .line img{
+    width: 800px;
+    height: 3px;
+}
+#let .line2{
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    transform: translate(-50%) rotateZ(90deg);
+}
+/*===============================================let-part-end=====================================================*/
+/*===============================================offer-part-start=====================================================*/
+#offer{
+    padding: 20px 0;
+    /*box-shadow: inset 0 0 150px 0 #2E3192;*/
+    box-shadow: inset 0 0 150px 0 rgba(26,26,25,1);
+
+
+}
+#offer .offer-box{
+    padding: 30px 20px;
+    background: rgba(242, 101, 39,1);
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.4s;
+
+}
+#offer .offer-box a{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color: #ffffff;
+    transition: 0.4s;
+
+
+
+}
+#offer .offer-box:hover{
+    background: #ffffff;
+
+}
+#offer .offer-box:hover a{
+    color: #F26527;
+}
+/*===============================================offer-part-end=====================================================*/
+/*===============================================blog-part-start=====================================================*/
+#blog{
+    margin-top: 50px;
+}
+#blog .image img{
+    height: 3px;
+    width: 100px;
+}
+#blog .item{
+    margin: 20px 0 0 0;
+    padding-bottom: 20px;
+    box-shadow: inset 0 0 150px 0 rgba(26,26,25,1);
+
+}
+#blog .images img{
+    width: 350px;
+    height: 200px;
+}
+#blog .item .text h6{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E3192;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0;
+}
+#blog .item .text p{
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+#blog .item .text a{
+    font-weight: 500;
+    letter-spacing: 10px;
+    background: #F26527;
+    padding: 10px ;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 10px ;
+}
+/*===============================================company-part-start==================================================*/
+#company{
+    padding: 30px 0;
+    box-shadow: inset 0 0 150px 0 rgba(26,26,25,1);
+
+}
+#company .image img{
+    width: 500px;
+    height: 3px;
+}
+#company .items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#company .item{
+    margin: 0 5px ;
+
+}
+#company .item img{
+    width: 250px;
+    height: 120px;
+}
+.slick-slide{
+    outline: none;
+}
+#company .slick-current{
+    border: 1px solid #F26527;
+    border-radius: 10px;
+}
+    /*===============================================company-part-end=====================================================*/
+/*===============================================blog-part-end=====================================================*/
+/*===============================================contact-part-start===================================================*/
+#contact{
+    box-shadow: inset 0 0 150px 0 rgba(26,26,25,1);
+    padding: 50px 0;
+}
+#contact .logo img{
+    width: 262px;
+    height: 66px;
+}
+#contact .icon a{
+    width: 35px;
+    height: 35px;
+    background: #2E3192;
+    color: #F26527;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+#contact .nav-part .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E3192;
+    text-transform: uppercase;
+    transition: 0.4s;
+    position: relative;
+    margin-right: 15px;
+}
+#contact .nav-part .nav-link:hover{
+    color: #F26527!important;}
+/*===============================================contact-part-end=====================================================*/
