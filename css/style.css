@@ -364,8 +364,8 @@ nav .nav-item .nav-link:hover::after{
     line-height: 40px;
     font-weight: 700;
     font-size: 20px;
-    background: #F26527;
-    color: #2E3192;
+    background: #2E3192;
+
     position: fixed;
     bottom: 100px;
     right: 70px;
@@ -375,7 +375,7 @@ nav .nav-item .nav-link:hover::after{
 }
 
 .back2top a {
-    color: #2E3192;
+    color: #F26527;
 
 }
 
