@@ -48,7 +48,7 @@ const c_stk = 'sticky';
 const c_vis = $('.navbar-collapse ul li a')
 const c_hide = $('.navbar-toggler:visible')
 //sticky-header//
-win.scroll(() => win.scrollTop() > 300 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
+win.scroll(() => win.scrollTop() > 200 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
 //back to top fadetoogle//
 win.scroll(() => win.scrollTop() > 100 ? b2b.fadeIn() : b2b.fadeOut());
 //back to top effect//
