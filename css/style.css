@@ -35,10 +35,11 @@ body {
 
 /*===============================================Nav-part-Start=======================================================*/
 nav{
-    position: absolute!important;
+    position: absolute !important;
     top: 40px;
     left: 0;
     width: 100%;
+    z-index: 888;
 }
 nav .navbar-brand img{
     width: 262px;
@@ -72,23 +73,31 @@ nav .nav-item .nav-link:hover{
 nav .nav-item .nav-link:hover::after{
     height: 3px;
 }
- .nav-item .active {
-    color: #F26527!important;
+
+.nav-item .active {
+    color: #F26527 !important;
 }
 
-  .navbar-nav .nav-item .active::after {
+.navbar-nav .nav-item .active::after {
     height: 3px;
 
 
 }
+
+.sticky {
+    position: fixed !important;
+    box-shadow: inset 0 0 150px 0 rgba(26, 26, 25, 1);
+}
+
 /*===============================================Nav-part-end=======================================================*/
 /*===============================================banner-part-start====================================================*/
-#banner{
+#banner {
     background: url("../images/bgp.jpg") center no-repeat;
     background-size: cover;
 }
-#banner .overlay{
-    background: rgba(0, 0, 0,0.8);
+
+#banner .overlay {
+    background: rgba(0, 0, 0, 0.8);
     padding: 250px 0;
 }
 #banner .left-banner .text {
@@ -341,6 +350,33 @@ nav .nav-item .nav-link:hover::after{
     position: relative;
     margin-right: 15px;
 }
-#contact .nav-part .nav-link:hover{
-    color: #F26527!important;}
+
+#contact .nav-part .nav-link:hover {
+    color: #F26527 !important;
+}
+
 /*===============================================contact-part-end=====================================================*/
+/*===============================================back2top-start=====================================================*/
+.back2top {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #F26527;
+    color: #2E3192;
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.back2top a {
+    color: #2E3192;
+
+}
+
+/*===============================================back2top-end=====================================================*/

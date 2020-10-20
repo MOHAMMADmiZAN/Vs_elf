@@ -38,3 +38,16 @@
 //         // instead of a settings object
 //     ]
 // });
+
+//// varible/////
+const win = $(window);
+const html_body = $('html, body');
+const stk = $('.st-menu');
+const b2b = $('.back2top');
+const c_stk = 'sticky';
+//sticky-header//
+win.scroll(() => win.scrollTop() > 300 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
+//back to top fadetoogle//
+win.scroll(() => win.scrollTop() > 100 ? b2b.fadeIn() : b2b.fadeOut());
+//back to top effect//
+b2b.click(() => html_body.animate({scrollTop: 0}, 2500));
