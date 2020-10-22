@@ -53,3 +53,22 @@ win.scroll(() => win.scrollTop() > 100 ? b2b.fadeIn() : b2b.fadeOut());
 b2b.click(() => html_body.animate({scrollTop: 0}, 2500));
 /* always close responsive nav after click */
 $('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
+
+
+//////////////hide source code/////////////
+document.onmousedown = disableclick;
+status = "Right Click Disabled";
+
+function disableclick(e) {
+    if (e.button === 2) {
+        alert(status);
+        return false;
+    }
+}
+
+document.onkeydown = function (e) {
+    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+        alert('Not allowed');
+    }
+    return false;
+};

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6c551b-f72e-4601-bb3a-27d71131a6c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1izB9HMBDCbCxPcBXFUuqAcykFY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,6 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,7 +83,10 @@
       <workItem from="1603128400019" duration="8328000" />
       <workItem from="1603137596151" duration="1951000" />
       <workItem from="1603171844570" duration="12074000" />
-      <workItem from="1603244895240" duration="5590000" />
+      <workItem from="1603244895240" duration="7620000" />
+      <workItem from="1603265212995" duration="86000" />
+      <workItem from="1603308696227" duration="155000" />
+      <workItem from="1603341886157" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="edit">
       <created>1603137678105</created>
@@ -171,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603254500220</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="edit">
+      <created>1603255281718</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603255281718</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,14 +206,14 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603171854865">
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603263624223">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603171854865" />
-    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1603254498078">
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603263624223" />
+    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1603255279257">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603254498078" />
+    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603255279257" />
     <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1602994233428">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -215,9 +230,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602994233428" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603254501745">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603255282724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603254501745" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603255282724" />
   </component>
 </project>
