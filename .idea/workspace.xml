@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6c551b-f72e-4601-bb3a-27d71131a6c9" name="Default Changelist" comment="">
+    <list default="true" id="9c6c551b-f72e-4601-bb3a-27d71131a6c9" name="Default Changelist" comment="ADD READ ME FILE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,8 @@
       <workItem from="1603244895240" duration="7620000" />
       <workItem from="1603265212995" duration="86000" />
       <workItem from="1603308696227" duration="155000" />
-      <workItem from="1603341886157" duration="5423000" />
+      <workItem from="1603341886157" duration="7106000" />
+      <workItem from="1608555928379" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="edit">
       <created>1603137678105</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603344045762</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="hide source">
+      <created>1603351291894</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603351291894</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,13 +224,25 @@
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="eidt" />
     <MESSAGE value="edit" />
     <MESSAGE value="hide source" />
-    <option name="LAST_COMMIT_MESSAGE" value="hide source" />
+    <MESSAGE value="ADD READ ME FILE" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD READ ME FILE" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -232,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603263624223" />
-    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1603344045268">
+    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1603351289972">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603344045268" />
+    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603351289972" />
     <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1602994233428">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -252,9 +272,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602994233428" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603344135803">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603351297176">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603344135803" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603351297176" />
   </component>
 </project>
